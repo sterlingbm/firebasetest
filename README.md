@@ -1,2 +1,0 @@
-# firebasetest
-Created with CodeSandbox
