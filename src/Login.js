@@ -2,10 +2,11 @@ import React from "react";
 import * as firebase from "firebase/app";
 import "firebase/auth";
 import "firebase/firestore";
+import GetLoginData from "./GetLoginData";
 
 class Login extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     const firebaseConfig = {
       apiKey: "AIzaSyDPGYny9oNcGmheHi-Red7MAE49sujIvFw",
